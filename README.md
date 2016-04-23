@@ -38,11 +38,11 @@ See [Install Server on Windows]
 
 ### Usage
 
-    ssserver -p 443 -k password -m aes-256-cfb
+    ssserver -p 8388 -k YOUR_PASSWORD -m aes-256-cfb
 
 To run in the background:
 
-    sudo ssserver -p 443 -k password -m aes-256-cfb --user nobody -d start
+    sudo ssserver -p 8388 -k YOUR_PASSWORD -m aes-256-cfb --user nobody -d start
 
 To stop:
 
